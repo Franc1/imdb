@@ -1,6 +1,6 @@
 import urllib
 import json
-
+from movie import Movie
 
 class Search(object):
     """docstring for Search"""

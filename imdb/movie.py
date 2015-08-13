@@ -8,7 +8,6 @@ class Movie(object):
         super(Movie, self).__init__()
         if id:
             return self.get_movie_by_id(id)
-        self.title = title
         self.get_movie_json(title)
 
     def get_movie_json(self, title):
